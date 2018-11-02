@@ -17,7 +17,7 @@ namespace MvcMusicStore.Models
             {
                 Artist = new Artist { Name = "Ray Charles" },
                 Genre = new Genre { Name = "Soul" },
-                Price = 9.99m,
+                Price = 9,
                 Title = "Genius Loves Company"
             });
 
