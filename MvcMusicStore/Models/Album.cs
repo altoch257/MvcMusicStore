@@ -17,7 +17,7 @@ namespace MvcMusicStore.Models
         [Required(ErrorMessage = "Are you gonna create an album with no Title? Seriously?")]
         public virtual string Title { get; set; }
 
-        [Required(ErrorMessage = "A Price is required. Enter 0 if if free.")]
+        [Required(ErrorMessage = "Price is required. Enter 0 if if free.")]
         public virtual decimal Price { get; set; }
 
         public virtual string AlbumArtUrl { get; set; }
